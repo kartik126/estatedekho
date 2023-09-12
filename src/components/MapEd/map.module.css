@@ -1,0 +1,46 @@
+.map_auto_complete {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 40px !important;
+}
+
+.map_auto_complete input,
+.map_auto_complete input:hover {
+  box-sizing: border-box;
+  height: auto;
+  margin: 0;
+  padding: 10px 13px;
+  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 600;
+  border: 2px solid #dfe4e5;
+  border-radius: 30px !important;
+  transition: border-color 0.5s ease;
+  box-shadow: none;
+  padding-left: 40px;
+  -webkit-appearance: none;
+}
+
+.map_auto_complete input,
+.map_auto_complete input:hover,
+.map_auto_complete input:active,
+.map_auto_complete input:focus {
+  padding-left: 43px !important;
+  /* background-image: url(/images/icon-search.svg) !important; */
+  background-repeat: no-repeat;
+  background-position: 13px center;
+  background-size: 20px 20px;
+  margin-bottom: 12px;
+}
+
+.map_auto_complete input:active,
+.map_auto_complete input:focus {
+  outline: none;
+  border: 2px solid #7f9498;
+}
+
+.abc {
+  background-color: red;
+}

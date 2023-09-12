@@ -1,0 +1,25 @@
+.upload-block > div {
+  margin-top: 15px;
+}
+
+.upload-block .error {
+  padding: 10px;
+  border-radius: 12px;
+  color: rgba(179, 0, 29, 1);
+  background-color: rgba(179, 0, 29, 0.05);
+  font-size: 13px;
+  line-height: 16px;
+  margin-bottom: 15px;
+}
+.upload-block .error::before {
+  font-weight: 700;
+  content: 'Error: ';
+}
+
+.upload-block .hidden {
+  width: 0px;
+  height: 0px;
+  pointer-events: none;
+  position: absolute;
+  visibility: hidden;
+}

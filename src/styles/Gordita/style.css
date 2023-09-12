@@ -1,0 +1,237 @@
+@font-face {
+  font-family: Gordita;
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Regular'), url('Gordita Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Regular';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Gordita Regular'), url('Gordita Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Regular Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Regular Italic'),
+    url('Gordita Regular Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Thin'), url('Gordita Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Thin Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Thin Italic'),
+    url('Gordita Thin Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Light'), url('Gordita Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Light Italic'),
+    url('Gordita Light Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Medium'), url('Gordita Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Medium Italic'),
+    url('Gordita Medium Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Bold'), url('Gordita Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Bold Italic'),
+    url('Gordita Bold Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Black'), url('Gordita Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Black Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Black Italic'),
+    url('Gordita Black Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Ultra';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Ultra'), url('Gordita Ultra.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Ultra Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita Ultra Italic'),
+    url('Gordita Ultra Italic.woff') format('woff');
+}
+
+.gordita {
+  font-family: 'Gordita Regular' !important;
+}
+
+.gordita-italic {
+  font-family: 'Gordita Regular Italic' !important;
+}
+
+.gordita-thin {
+  font-family: 'Gordita Thin' !important;
+}
+
+.gordita-thin-italic {
+  font-family: 'Gordita Thin Italic' !important;
+}
+
+.gordita-light {
+  font-family: 'Gordita Light' !important;
+}
+
+.gordita-light-italic {
+  font-family: 'Gordita Light Italic' !important;
+}
+
+.gordita-medium {
+  font-family: 'Gordita Medium' !important;
+}
+
+.gordita-medium-italic {
+  font-family: 'Gordita Medium Italic' !important;
+}
+
+.gordita-bold {
+  font-family: 'Gordita Bold' !important;
+}
+
+.gordita-bold-italic {
+  font-family: 'Gordita Bold Italic' !important;
+}
+
+.gordita-black {
+  font-family: 'Gordita Black' !important;
+}
+
+.gordita-black-italic {
+  font-family: 'Gordita Black Italic' !important;
+}
+
+.gordita-ultra {
+  font-family: 'Gordita Ultra' !important;
+}
+
+.gordita-ultra-italic {
+  font-family: 'Gordita Ultra Italic' !important;
+}
+
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .gordita-md {
+    font-family: 'Gordita Regular' !important;
+  }
+
+  .gordita-italic-md {
+    font-family: 'Gordita Regular Italic' !important;
+  }
+
+  .gordita-thin-md {
+    font-family: 'Gordita Thin' !important;
+  }
+
+  .gordita-thin-italic-md {
+    font-family: 'Gordita Thin Italic' !important;
+  }
+
+  .gordita-light-md {
+    font-family: 'Gordita Light' !important;
+  }
+
+  .gordita-light-italic-md {
+    font-family: 'Gordita Light Italic' !important;
+  }
+
+  .gordita-medium-md {
+    font-family: 'Gordita Medium' !important;
+  }
+
+  .gordita-medium-italic-md {
+    font-family: 'Gordita Medium Italic' !important;
+  }
+
+  .gordita-bold-md {
+    font-family: 'Gordita Bold' !important;
+  }
+
+  .gordita-bold-italic-md {
+    font-family: 'Gordita Bold Italic' !important;
+  }
+
+  .gordita-black-md {
+    font-family: 'Gordita Black' !important;
+  }
+
+  .gordita-black-italic-md {
+    font-family: 'Gordita Black Italic' !important;
+  }
+
+  .gordita-ultra-md {
+    font-family: 'Gordita Ultra' !important;
+  }
+
+  .gordita-ultra-italic-md {
+    font-family: 'Gordita Ultra Italic' !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

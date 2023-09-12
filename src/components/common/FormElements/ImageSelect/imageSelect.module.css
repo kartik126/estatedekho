@@ -1,0 +1,117 @@
+.image_upload_root {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.image_upload_root .file_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 150px;
+}
+
+.image_upload_root .file_details p > strong {
+  white-space: nowrap;
+}
+
+.image_upload {
+  width: 125px;
+  height: 125px;
+  background: #fff;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  box-shadow: 6px 6px 20px rgba(39, 40, 73, 0.05);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 8px 0;
+  margin-right: 15px;
+  transition: 0.3s all ease;
+  overflow: hidden;
+}
+
+.image_upload:hover {
+  background-color: #fff;
+  border-color: #fefefe;
+  box-shadow: 6px 6px 20px 7px rgba(39, 40, 73, 0.05);
+}
+
+.image_upload input[type='file'] {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+  width: 100%;
+}
+
+.uploaded_image {
+  width: 125px;
+  height: 125px;
+  overflow: hidden;
+  margin: 8px 16px;
+  box-shadow: 6px 6px 20px rgba(39, 40, 73, 0.05);
+  border-radius: 20px;
+  position: relative;
+}
+
+.uploaded_image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.uploaded_image:first-child {
+  margin-left: 0 !important;
+}
+
+.image_upload_root .uploaded_images {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: n;
+  max-width: 471px;
+}
+
+.image_upload_root .uploading_loading {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(225, 225, 225, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image_upload_root .uploaded_image .image_remove_btn {
+  border: none !important;
+  outline: none !important;
+  background-color: #00000078;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 0px;
+  height: 20px;
+  line-height: 15px;
+  width: 20px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.image_upload_root .uploaded_image .image_remove_btn > svg {
+  color: #ffffff;
+  filter: brightness(100);
+  background: #000;
+  line-height: 19px;
+}

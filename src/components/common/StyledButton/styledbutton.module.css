@@ -1,0 +1,71 @@
+.rounded_button {
+  padding: 16px 25px;
+  background: #f7fafc;
+  border: 2px solid #d3dbe0;
+  box-sizing: border-box;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-family: Gordita;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #01272f;
+  margin-bottom: 20px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.rounded_button:hover {
+  background-color: #e1ecf4;
+}
+
+.rounded_button:last-of-type {
+  margin-bottom: 40px;
+}
+
+.rounded_button > svg {
+  margin-right: 18.5px;
+}
+
+.rounded_button.dark_btn {
+  text-align: center;
+  background-color: #01272f;
+  color: #fff;
+  justify-content: center;
+}
+
+.rounded_button.outline_dark_btn {
+  border: 2px solid #01272f;
+  justify-content: center;
+}
+
+.rounded_button.dark_btn:hover {
+  background-color: #000;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .rounded_button {
+    min-width: 342px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,110 @@
+.onboard-btn {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(1, 40, 47, 0.15);
+  transition: all 0.5s ease;
+}
+.onboard-btn {
+  cursor: pointer !important;
+}
+.onboard-btn.small {
+  padding: 10px 14px;
+}
+
+.onboard-btn.primary {
+  color: #fff;
+  background: #01282f;
+}
+.onboard-btn.secondary {
+  color: #01282f;
+  background: #fff;
+}
+
+.onboard-btn.delete {
+  background: #fff url(/images/icon-delete.svg) no-repeat 14px center;
+  background-size: 15px 15px;
+  padding: 10px 14px 10px 32px;
+  border-radius: 10px;
+  color: #b3001d;
+}
+
+.onboard-btn.small.delete {
+  min-height: 16px;
+  background: transparent url(/images/icon-delete.svg) no-repeat center center;
+  background-size: 20px 20px;
+  color: #31c6ff;
+  padding-left: 32px;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.onboard-btn.disabled,
+.onboard-btn.disabled:hover {
+  opacity: 0.25;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* .onboard-btn.primary.loading {
+  background-color: rgba(1, 40, 47, 0.5);
+}
+.onboard-btn.onboard-btn.secondary.loading {
+  background-color: rgba(255, 255, 255, 0.5);
+} */
+
+.onboard-btn.edit {
+  padding-left: 42px;
+  border-radius: 10px;
+  background: #fff url(/images/icon-edit.svg) no-repeat 22px center;
+  background-size: 12px 12px;
+  color: #31c6ff;
+}
+
+.onboard-btn.small.edit {
+  padding-left: 32px;
+  background-position: 14px center;
+}
+
+.onboard-btn.square {
+  border-radius: 10px;
+  color: #31c6ff;
+}
+
+.onboard-btn:hover {
+  opacity: 0.8;
+}
+
+.onboard-btn:active {
+  opacity: 0.5;
+  box-shadow: 0 1px 2px rgba(1, 40, 47, 0.3);
+  transition: all 0.1s ease;
+}
+
+.text-link {
+  padding: 5px 0;
+  background: none;
+  box-shadow: none;
+  color: #31c6ff;
+}
+
+@media (min-width: 768px) {
+  .onboard-btn {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    border: none;
+    padding: 15px 24px;
+    border-radius: 23px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(1, 40, 47, 0.15);
+    transition: all 0.5s ease;
+  }
+}

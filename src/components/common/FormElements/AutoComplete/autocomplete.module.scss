@@ -1,0 +1,110 @@
+.auto_complete_root {
+  position: relative;
+}
+
+.auto_complete_root > img + input {
+  padding-left: 50px !important;
+}
+
+.auto_complete_root .auto_complete_result_icon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.auto_complete_search_root {
+  background: #ffffff;
+  box-shadow: 0px 5px 30px rgba(39, 40, 73, 0.23);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.auto_complete_search_root ~ :global(.MuiAutocomplete-popper) {
+  margin-top: -4px;
+}
+
+.auto_complete_search {
+  padding: 21px 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-bottom: 1px solid #f7f8fb;
+}
+
+.auto_complete_search input,
+.auto_complete_search input:hover,
+.auto_complete_search input:focus,
+.auto_complete_search input:active {
+  border: 1px solid transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.auto_complete_search input {
+  padding: 14px 45px 14px 20px;
+  background: #f7f8fb;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.auto_complete_search input:focus {
+  border-color: #00c1bc !important;
+}
+
+.auto_complete_search .search_button {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.auto_complete_search_root .auto_complete_search_results {
+  max-height: 30vh;
+  overflow: auto;
+}
+
+.auto_complete_search_root .auto_complete_search_results .searc_result_option {
+  padding: 10.5px 20px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+}
+
+.auto_complete_search_root
+  .auto_complete_search_results
+  .searc_result_option:hover {
+  background-color: #f7f8fb;
+  cursor: pointer;
+}
+
+.auto_complete_search_root
+  .auto_complete_search_results
+  .searc_result_option
+  span {
+  font-family: Gordita;
+  font-style: normal;
+  // font-weight: 600;
+  font-size: 14px;
+  color: #01272f;
+  line-height: 19.6px;
+  text-transform: capitalize;
+}
+
+.searc_result_option.option_selected span {
+  font-family: 'Gordita Medium';
+  font-weight: 600;
+}
+
+.auto_complete_search_root
+  .auto_complete_search_results
+  .searc_result_option
+  img
+  + span {
+  margin-left: 15px;
+}

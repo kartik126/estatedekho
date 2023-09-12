@@ -1,0 +1,94 @@
+.otp_input_group,
+.otp_input[data-variant='circle'] {
+  display: flex;
+  align-items: center;
+}
+
+.otp_input_group {
+  margin: 0 -10px;
+}
+
+.otp_input_group .otp_input[data-variant='circle'] {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  text-align: center;
+  border: 2px solid #d3dbe0;
+  box-sizing: border-box;
+  background-color: #f7fafc;
+  margin: 0 10px;
+  /* margin-right: 20px; */
+  margin-top: 25px;
+  font-family: Gordita;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  color: #848c95;
+  padding-top: 5.75px;
+}
+
+.otp_input_group .otp_input[data-variant='rounded'] {
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(39, 40, 73, 0.05);
+  border-radius: 15px;
+  border: 1px solid transparent;
+  margin: 0 5px;
+  text-align: center;
+  color: #01272f;
+  font-family: 'Gordita Bold';
+  height: 60px;
+  width: 50px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+@media only screen and (max-width: 375px) {
+  .otp_input_group .otp_input[data-variant='rounded'] {
+    max-width: 48px;
+    max-height: 55px;
+    width: 100%;
+    border-radius: 10.3502px;
+    font-size: 16.5603px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.345006px;
+    margin: 0 3px;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .otp_input_group .otp_input[data-variant='circle'] {
+    height: 55px;
+    width: 55px;
+    padding-top: 6.87px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .otp_input_group .otp_input[data-variant='circle'] {
+    height: 75px;
+    width: 75px;
+    padding-top: 9.25px;
+  }
+  .otp_input_group .otp_input[data-variant='rounded'] {
+    height: 80px;
+    width: 65px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

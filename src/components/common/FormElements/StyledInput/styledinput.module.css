@@ -1,0 +1,304 @@
+.styled_input {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-family: Gordita;
+  position: relative;
+  margin-bottom: 29.52px;
+}
+
+.styled_input .styled_input_wrap {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.styled_input .styled_input_wrap button {
+  border: none !important;
+  background-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+  padding: 0px;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input_error_msg {
+  font-size: 11px !important;
+  /* text-transform: capitalize; */
+}
+
+.styled_input .input_error_msg {
+  padding-left: 10px;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(90%);
+}
+
+.styled_input label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #293133;
+  margin-bottom: 6.48px;
+}
+
+.styled_input input[type='text'],
+.styled_input input[type='email'],
+.styled_input input[type='password'],
+.styled_input input[type='number'],
+.styled_input input[type='tel'],
+.styled_input input[type='url'],
+.styled_input textarea,
+.styled_input select {
+  flex: 1;
+  min-height: 50px;
+  background: #f7fafc;
+  border: 2px solid #d3dbe0;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 12px 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: #43474a;
+  min-width: 100%;
+  transition: border-color 0.3s ease;
+  will-change: border-color;
+  box-shadow: none;
+  flex: 1;
+}
+
+.styled_input input[type='text']:focus,
+.styled_input input[type='email']:focus,
+.styled_input input[type='password']:focus,
+.styled_input input[type='number']:focus,
+.styled_input input[type='tel']:focus,
+.styled_input input[type='url']:focus,
+.styled_input textarea:focus,
+.styled_input:focus select:focus,
+.styled_input:focus input,
+.styled_input:focus textarea .styled_input:focus select {
+  border-color: #00c1bc;
+}
+
+.styled_input input[type='text']:disabled,
+.styled_input input[type='email']:disabled,
+.styled_input input[type='password']:disabled,
+.styled_input input[type='number']:disabled,
+.styled_input input[type='tel']:disabled,
+.styled_input input[type='url']:disabled,
+.styled_input textarea:disabled,
+.styled_input select:disabled {
+  background-color: #d3dbe061;
+  cursor: not-allowed;
+}
+
+.styled_input input[type='text']:read-only,
+.styled_input input[type='email']:read-only,
+.styled_input input[type='password']:read-only,
+.styled_input input[type='number']:read-only,
+.styled_input input[type='tel']:read-only,
+.styled_input input[type='url']:read-only,
+.styled_input textarea:read-only,
+.styled_input select:read-only {
+  cursor: pointer;
+}
+
+.styled_input textarea {
+  border-radius: 25px;
+}
+
+.styled_input ::-webkit-input-placeholder {
+  color: #848c95;
+}
+
+.styled_input :-ms-input-placeholder {
+  color: #848c95;
+}
+
+.styled_input ::placeholder {
+  color: #848c95;
+}
+
+.styled_input[data-style-variant='style2'] label {
+  font-family: 'Gordita Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5em;
+  text-transform: none;
+  margin-bottom: 10px;
+  letter-spacing: -0.02em;
+  color: #01272f;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.styled_input[data-style-variant='style2'] label > span:nth-child(odd) {
+  padding-right: 15px;
+  margin-bottom: 5px;
+}
+
+.styled_input[data-style-variant='style2'] input[type='text'],
+.styled_input[data-style-variant='style2'] input[type='email'],
+.styled_input[data-style-variant='style2'] input[type='password'],
+.styled_input[data-style-variant='style2'] input[type='number'],
+.styled_input[data-style-variant='style2'] input[type='tel'],
+.styled_input[data-style-variant='style2'] input[type='url'],
+.styled_input[data-style-variant='style2'] textarea,
+.styled_input[data-style-variant='style2'] select {
+  flex: 1;
+  min-height: 50px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 14px 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.4em;
+  letter-spacing: -0.02em;
+  color: #01272f;
+  min-width: 100%;
+  transition: border-color 0.3s ease;
+  will-change: border-color;
+  box-shadow: none;
+  flex: 1;
+  mix-blend-mode: normal;
+  vertical-align: middle;
+  line-height: normal !important;
+  box-shadow: 0px 10px 30px rgba(39, 40, 73, 0.05);
+}
+
+.styled_input[data-style-variant='style2']
+  .has_error
+  input[type='text']:not(:disabled),
+.styled_input[data-style-variant='style2']
+  .has_error
+  input[type='email']:not(:disabled),
+.styled_input[data-style-variant='style2']
+  .has_error
+  input[type='password']:not(:disabled),
+.styled_input[data-style-variant='style2']
+  .has_error
+  input[type='number']:not(:disabled),
+.styled_input[data-style-variant='style2']
+  .has_error
+  input[type='tel']:not(:disabled),
+.styled_input[data-style-variant='style2']
+  .has_error
+  input[type='url']:not(:disabled),
+.styled_input[data-style-variant='style2'] .has_error textarea:not(:disabled),
+.styled_input[data-style-variant='style2'] .has_error select:not(:disabled) {
+  border-color: #fe84a8 !important;
+  background-color: #fff3f6 !important;
+}
+
+.styled_input[data-style-variant='style2'] .has_error :global(.text-danger) {
+  color: #cb6a86 !important;
+}
+
+.styled_input[data-style-variant='style2'] ::-webkit-input-placeholder {
+  color: #809397;
+}
+
+.styled_input[data-style-variant='style2'] :-ms-input-placeholder {
+  color: #809397;
+}
+
+.styled_input[data-style-variant='style2'] ::placeholder {
+  color: #809397;
+}
+
+.styled_input[data-style-variant='style2'] .input_error_msg {
+  padding-top: 6px;
+  transform: translateY(85%);
+}
+
+.styled_input + hr {
+  opacity: 0.5;
+  border: 1px solid #99a9ac;
+  background-color: #99a9ac;
+  margin-bottom: 40px !important;
+}
+
+.styled_input [data-tag-group='true'] > div {
+  display: inline-flex;
+  width: 100%;
+  break-inside: avoid-column;
+  align-items: center;
+}
+
+.field_required_after::after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  min-height: 5px;
+  min-width: 5px;
+  background-color: #00c1bc;
+  display: inline-block;
+  border-radius: 50%;
+  /* margin: 7.6px 7.5px; */
+  margin: 1.5px 7.5px;
+  /* margin-right: 7.5px; */
+  max-height: 5px;
+  max-width: 5px;
+  flex: 1;
+  margin-right: auto;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .styled_input [data-tag-group='true'] {
+    column-count: 2;
+  }
+  /* .styled_input [data-tag-group=true] > div:first-child {
+        margin-top: 0px;
+    } */
+}
+
+/* Medium devices for modals (tablets, 960px and up) */
+@media (min-width: 960px) {
+  /* .styled_input label, */
+  .styled_input[data-style-variant='style2'] label {
+    color: #32545a;
+  }
+
+  .styled_input[data-style-variant='style2'] label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+  }
+
+  .styled_input[data-style-variant='style2'] label > span:nth-child(odd) {
+    margin-bottom: 0px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
